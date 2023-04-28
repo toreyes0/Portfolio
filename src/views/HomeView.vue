@@ -15,7 +15,7 @@ import TypeAnimation from '../components/TypeAnimation.vue'
 		<div id="profiles" class="mt-4 opacity-0 animate-fadeInDelayedMore">
 			<a
 				class="devicon-github-original text-3xl mx-2 pointer-events-auto hover:text-neutral-100 duration-100"
-				href="https://github.com/tobreyes"
+				href="https://github.com/toreyes0"
 				target="_blank"
 			></a>
 			<a
