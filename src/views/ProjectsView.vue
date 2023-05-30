@@ -35,7 +35,7 @@ const projects: projectType = [
 		className: 'ycsr',
 		techs: ['flask-plain', 'tensorflow-original', 'jquery-plain', 'tailwindcss-plain'],
 		links: {
-			source_code: 'https://github.com/risbi0/YouTube-Comment-Spam-Reporter'
+			source_code: 'https://github.com/toreyes0/YouTube-Comment-Spam-Reporter'
 		}
 	},
 	{
