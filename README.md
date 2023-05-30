@@ -1,5 +1,7 @@
 # My Portfolio
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4abe8c55-cc9c-44c2-903e-bf6f7fe14351/deploy-status)](https://app.netlify.com/sites/tedowenreyes/deploys)
+
 ### Tech Stack
 - Framework: [Vue](https://vuejs.org/)
 - UI: [PostCSS](https://postcss.org/) + [TailwindCSS](https://tailwindcss.com/) + [daisyUI](https://daisyui.com/)
