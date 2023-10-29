@@ -107,7 +107,7 @@ function onEnter(el: any): void {
 	<div class="pt-24 flex justify-center">
 		<TypeAnimation id="projects-header" class="text-5xl w-max h-full" />
 	</div>
-	<div class="pt-16 m-auto sm:w-2/3 flex flex-wrap justify-center">
+	<div class="pt-16 m-auto xl:w-2/3 flex flex-wrap justify-center">
 		<TransitionGroup appear @enter="onEnter">
 			<div
 				v-for="(project, index) in projects"
