@@ -8,6 +8,17 @@ const store = useStore()
 
 const projects: projectType = [
 	{
+		name: 'Frontend Mentor Solutions',
+		description:
+			'My solutions in Frontend Mentor challenges. All written in pure HTML, CSS, and JavaScript.',
+		className: 'fms',
+		techs: ['react-original', 'materialui-plain'],
+		links: {
+			source_code: 'https://github.com/toreyes0/Frontend-Mentor-Solutions',
+			website: 'https://frontend-mentor-solutions-tor.vercel.app'
+		}
+	},
+	{
 		name: 'Devicon',
 		description:
 			'Icons about programming languages, software development, and graphic design tools.',
@@ -46,6 +57,17 @@ const projects: projectType = [
 		links: {
 			source_code: 'https://github.com/risbi0/Elysian-Realm',
 			website: 'https://risbi0.github.io/Elysian-Realm'
+		}
+	},
+	{
+		name: 'Azur Lane Guessing Game',
+		description:
+			'A game about guessing the characters in a game by its silhouette',
+		className: 'algg',
+		techs: ['react-original', 'firebase-plain'],
+		links: {
+			source_code: 'https://github.com/risbi0/al-guess-game',
+			website: 'https://al-guess-game.web.app'
 		}
 	},
 	{
@@ -156,10 +178,12 @@ function onEnter(el: any): void {
 
 $imgFormats: avif, png;
 $imgs: (
+	'fms': 'frontend_mentor_solutions',
 	'di': 'devicon',
 	'brda': 'bus_reservation_demo_app',
 	'ycsr': 'youtube_comment_spam_reporter',
 	'errb': 'elysian_realm_recommended_builds',
+	'algg': 'al-guess-game',
 	'hylas': 'holopro_yt_livestream_activity_statistics',
 	'hcbm': 'holocure_build_maker'
 );
