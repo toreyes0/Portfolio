@@ -71,6 +71,16 @@ const projects: projectType = [
 		}
 	},
 	{
+		name: 'HoloCure Build Maker',
+		description: 'Generate and share builds for HoloCure (Hololive fan-made game).',
+		className: 'hcbm',
+		techs: ['svelte-plain', 'redis-plain'],
+		links: {
+			source_code: 'https://github.com/risbi0/HoloCure-Build-Maker',
+			website: 'https://holocure-build-maker.vercel.app'
+		}
+	},
+	{
 		name: 'HoloPro Livestream Activity Statistics',
 		description:
 			"Visualization of HoloPro talents' YouTube streaming activity through timeseries heatmaps and related statistics.",
@@ -79,16 +89,6 @@ const projects: projectType = [
 		links: {
 			source_code: 'https://github.com/risbi0/Hololive-Production-Livestream-Activity-Statistics',
 			website: 'https://holopro-yt-livestream-activity-statistics.streamlit.app'
-		}
-	},
-	{
-		name: 'HoloCure Build Maker',
-		description: 'Generate and share builds for HoloCure (Hololive fan-made game).',
-		className: 'hcbm',
-		techs: ['svelte-plain', 'redis-plain'],
-		links: {
-			source_code: 'https://github.com/risbi0/HoloCure-Build-Maker',
-			website: 'https://holocure-build-maker.vercel.app'
 		}
 	}
 ]
